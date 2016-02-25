@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0D06201C7F0B2700F7F5A1 /* LogDetailNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D061F1C7F0B2700F7F5A1 /* LogDetailNavigationController.swift */; };
 		1CDD0ADD1C7C057B0082A00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0ADC1C7C057B0082A00B /* AppDelegate.swift */; };
-		1CDD0ADF1C7C057B0082A00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0ADE1C7C057B0082A00B /* ViewController.swift */; };
+		1CDD0ADF1C7C057B0082A00B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0ADE1C7C057B0082A00B /* StartViewController.swift */; };
 		1CDD0AE21C7C057B0082A00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD0AE01C7C057B0082A00B /* Main.storyboard */; };
 		1CDD0AE51C7C057B0082A00B /* Location_Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0AE31C7C057B0082A00B /* Location_Log.xcdatamodeld */; };
 		1CDD0AE71C7C057B0082A00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD0AE61C7C057B0082A00B /* Assets.xcassets */; };
 		1CDD0AEA1C7C057B0082A00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD0AE81C7C057B0082A00B /* LaunchScreen.storyboard */; };
 		1CDD0AF51C7C057C0082A00B /* Location_LogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0AF41C7C057C0082A00B /* Location_LogTests.swift */; };
 		1CDD0B001C7C057C0082A00B /* Location_LogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0AFF1C7C057C0082A00B /* Location_LogUITests.swift */; };
+		1CDD0B141C7C08FC0082A00B /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B121C7C08FC0082A00B /* LogTableViewCell.swift */; };
+		1CDD0B171C7C0AF60082A00B /* LogListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B161C7C0AF60082A00B /* LogListTableViewController.swift */; };
+		1CDD0B191C7C0C240082A00B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B181C7C0C240082A00B /* Log.swift */; };
+		1CDD0B1B1C7C19150082A00B /* LoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B1A1C7C19150082A00B /* LoggingViewController.swift */; };
+		1CDD0B1D1C7C26D80082A00B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDD0B1C1C7C26D80082A00B /* MapKit.framework */; };
+		1CDD0B1F1C7C9E610082A00B /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B1E1C7C9E610082A00B /* LogDetailViewController.swift */; };
+		1CDD0B211C7CE75F0082A00B /* LogDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD0B201C7CE75F0082A00B /* LogDetailTableViewCell.xib */; };
+		1CDD0B231C7CE7790082A00B /* LogDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B221C7CE7790082A00B /* LogDetailTableViewCell.swift */; };
+		1CDD0B261C7D65EB0082A00B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B251C7D65EB0082A00B /* Double.swift */; };
+		1CDD0B281C7D831D0082A00B /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B271C7D831D0082A00B /* CLLocationCoordinate2D.swift */; };
+		1CDD0B2A1C7D86390082A00B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0B291C7D86390082A00B /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0D061F1C7F0B2700F7F5A1 /* LogDetailNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailNavigationController.swift; sourceTree = "<group>"; };
 		1CDD0AD91C7C057B0082A00B /* Location Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDD0ADC1C7C057B0082A00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CDD0ADE1C7C057B0082A00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CDD0ADE1C7C057B0082A00B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		1CDD0AE11C7C057B0082A00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CDD0AE41C7C057B0082A00B /* Location_Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Location_Log.xcdatamodel; sourceTree = "<group>"; };
 		1CDD0AE61C7C057B0082A00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,17 @@
 		1CDD0AFB1C7C057C0082A00B /* Location LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDD0AFF1C7C057C0082A00B /* Location_LogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_LogUITests.swift; sourceTree = "<group>"; };
 		1CDD0B011C7C057C0082A00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDD0B121C7C08FC0082A00B /* LogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		1CDD0B161C7C0AF60082A00B /* LogListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogListTableViewController.swift; sourceTree = "<group>"; };
+		1CDD0B181C7C0C240082A00B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		1CDD0B1A1C7C19150082A00B /* LoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingViewController.swift; sourceTree = "<group>"; };
+		1CDD0B1C1C7C26D80082A00B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1CDD0B1E1C7C9E610082A00B /* LogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
+		1CDD0B201C7CE75F0082A00B /* LogDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailTableViewCell.xib; sourceTree = "<group>"; };
+		1CDD0B221C7CE7790082A00B /* LogDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailTableViewCell.swift; sourceTree = "<group>"; };
+		1CDD0B251C7D65EB0082A00B /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		1CDD0B271C7D831D0082A00B /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		1CDD0B291C7D86390082A00B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDD0B1D1C7C26D80082A00B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +104,7 @@
 		1CDD0AD01C7C057B0082A00B = {
 			isa = PBXGroup;
 			children = (
+				1CDD0B1C1C7C26D80082A00B /* MapKit.framework */,
 				1CDD0ADB1C7C057B0082A00B /* Location Log */,
 				1CDD0AF31C7C057C0082A00B /* Location LogTests */,
 				1CDD0AFE1C7C057C0082A00B /* Location LogUITests */,
@@ -99,11 +125,12 @@
 		1CDD0ADB1C7C057B0082A00B /* Location Log */ = {
 			isa = PBXGroup;
 			children = (
+				1CDD0B241C7D65BC0082A00B /* Extension */,
+				1CDD0B0D1C7C078F0082A00B /* Model */,
+				1CDD0B0F1C7C07A80082A00B /* View */,
+				1CDD0B101C7C07AE0082A00B /* Controller */,
 				1CDD0ADC1C7C057B0082A00B /* AppDelegate.swift */,
-				1CDD0ADE1C7C057B0082A00B /* ViewController.swift */,
-				1CDD0AE01C7C057B0082A00B /* Main.storyboard */,
 				1CDD0AE61C7C057B0082A00B /* Assets.xcassets */,
-				1CDD0AE81C7C057B0082A00B /* LaunchScreen.storyboard */,
 				1CDD0AEB1C7C057B0082A00B /* Info.plist */,
 				1CDD0AE31C7C057B0082A00B /* Location_Log.xcdatamodeld */,
 			);
@@ -126,6 +153,56 @@
 				1CDD0B011C7C057C0082A00B /* Info.plist */,
 			);
 			path = "Location LogUITests";
+			sourceTree = "<group>";
+		};
+		1CDD0B0D1C7C078F0082A00B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0B181C7C0C240082A00B /* Log.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1CDD0B0F1C7C07A80082A00B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0B111C7C08C50082A00B /* Table View Cell */,
+				1CDD0AE01C7C057B0082A00B /* Main.storyboard */,
+				1CDD0AE81C7C057B0082A00B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1CDD0B101C7C07AE0082A00B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0ADE1C7C057B0082A00B /* StartViewController.swift */,
+				1CDD0B161C7C0AF60082A00B /* LogListTableViewController.swift */,
+				1CDD0B1A1C7C19150082A00B /* LoggingViewController.swift */,
+				1CDD0B1E1C7C9E610082A00B /* LogDetailViewController.swift */,
+				1C0D061F1C7F0B2700F7F5A1 /* LogDetailNavigationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1CDD0B111C7C08C50082A00B /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0B121C7C08FC0082A00B /* LogTableViewCell.swift */,
+				1CDD0B221C7CE7790082A00B /* LogDetailTableViewCell.swift */,
+				1CDD0B201C7CE75F0082A00B /* LogDetailTableViewCell.xib */,
+			);
+			name = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		1CDD0B241C7D65BC0082A00B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0B251C7D65EB0082A00B /* Double.swift */,
+				1CDD0B271C7D831D0082A00B /* CLLocationCoordinate2D.swift */,
+				1CDD0B291C7D86390082A00B /* String.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +273,15 @@
 				TargetAttributes = {
 					1CDD0AD81C7C057B0082A00B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M2T6Z3VFYT;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					1CDD0AEF1C7C057C0082A00B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -234,6 +320,7 @@
 			files = (
 				1CDD0AEA1C7C057B0082A00B /* LaunchScreen.storyboard in Resources */,
 				1CDD0AE71C7C057B0082A00B /* Assets.xcassets in Resources */,
+				1CDD0B211C7CE75F0082A00B /* LogDetailTableViewCell.xib in Resources */,
 				1CDD0AE21C7C057B0082A00B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CDD0ADF1C7C057B0082A00B /* ViewController.swift in Sources */,
+				1CDD0ADF1C7C057B0082A00B /* StartViewController.swift in Sources */,
+				1CDD0B1B1C7C19150082A00B /* LoggingViewController.swift in Sources */,
 				1CDD0ADD1C7C057B0082A00B /* AppDelegate.swift in Sources */,
+				1CDD0B191C7C0C240082A00B /* Log.swift in Sources */,
+				1CDD0B1F1C7C9E610082A00B /* LogDetailViewController.swift in Sources */,
+				1CDD0B141C7C08FC0082A00B /* LogTableViewCell.swift in Sources */,
+				1CDD0B2A1C7D86390082A00B /* String.swift in Sources */,
 				1CDD0AE51C7C057B0082A00B /* Location_Log.xcdatamodeld in Sources */,
+				1C0D06201C7F0B2700F7F5A1 /* LogDetailNavigationController.swift in Sources */,
+				1CDD0B281C7D831D0082A00B /* CLLocationCoordinate2D.swift in Sources */,
+				1CDD0B231C7CE7790082A00B /* LogDetailTableViewCell.swift in Sources */,
+				1CDD0B261C7D65EB0082A00B /* Double.swift in Sources */,
+				1CDD0B171C7C0AF60082A00B /* LogListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +498,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Location Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trmquang.Location-Log";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +512,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Location Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trmquang.Location-Log";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +589,7 @@
 				1CDD0B061C7C057C0082A00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CDD0B071C7C057C0082A00B /* Build configuration list for PBXNativeTarget "Location LogTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +598,7 @@
 				1CDD0B091C7C057C0082A00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CDD0B0A1C7C057C0082A00B /* Build configuration list for PBXNativeTarget "Location LogUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +607,7 @@
 				1CDD0B0C1C7C057C0082A00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
