@@ -418,7 +418,11 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="aAB-lh-3EZ">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="22m-sY-DFJ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="22m-sY-DFJ">
+                            <connections>
+                                <segue destination="bOd-TT-MGQ" kind="show" identifier="SaveNewLog" id="l2p-1S-WVH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="Qvd-Sv-w4W" id="NfQ-tR-L9X"/>
@@ -466,7 +470,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Oa7-kb-T3b"/>
+        <segue reference="l2p-1S-WVH"/>
         <segue reference="bnX-EY-l16"/>
         <segue reference="hHP-RS-TT5"/>
     </inferredMetricsTieBreakers>
