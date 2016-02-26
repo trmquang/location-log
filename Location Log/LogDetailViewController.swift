@@ -29,8 +29,8 @@ class LogDetailViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UINib.init(nibName: "LogDetailTableViewCell", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! LogDetailTableViewCell
-        
+        let cellIdentifier = "LogDetailTableViewCell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! LogDetailTableViewCell
         cell.latitudeLabel.text = log?.locationArray[indexPath.row].coordinate.latitude.toStringWithFormat(".15")
         cell.longitudeLabel.text = log?.locationArray[indexPath.row].coordinate.longitude.toStringWithFormat(".15")
         return cell
@@ -44,6 +44,11 @@ class LogDetailViewController: UITableViewController {
         if segue.identifier == "SaveNewLog" {
             let logListTableViewController = segue.destinationViewController as! LogListTableViewController
             logListTableViewController.newLog = log
+        }
+        else if segue.identifier == "ShowMapDetail" {
+            let mapDetailViewController = segue.destinationViewController as! MapDetailViewController
+            mapDetailViewController.log = self.log
+            
         }
     }
     

@@ -42,4 +42,12 @@ class Log {
         self.locationArray += locationArray
     }
     
+    //** Get Array Of 2d Coordinates
+    func getArrayCoordinate2D() -> [CLLocationCoordinate2D]{
+        var coordinateArray: [CLLocationCoordinate2D] = []
+        for location in locationArray {
+            coordinateArray.append(location.coordinate)
+        }
+        return coordinateArray
+    }
 }

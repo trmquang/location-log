@@ -13,7 +13,7 @@ class LoggingViewController: UIViewController, CLLocationManagerDelegate {
     
     // MARK: - Properties
     var locationManager: CLLocationManager?
-    var distanceFilter: Double!
+    var distanceFilter: Double = 50
     var visitedLocations: [CLLocation] = []
     
     // MARK: - IBOutlet
@@ -28,7 +28,7 @@ class LoggingViewController: UIViewController, CLLocationManagerDelegate {
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager?.distanceFilter = 200
+        locationManager?.distanceFilter = self.distanceFilter
         locationManager?.requestAlwaysAuthorization()
     }
     
